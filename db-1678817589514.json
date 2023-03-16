@@ -1,0 +1,37 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "companyName": "One Tech Business Solutions",
+      "email": "contact@otbs.tn",
+      "website": "onetech-bs.com",
+      "phoneNum": "71244145",
+      "faxNum": "71244145",
+      "state": "Tunis",
+      "city": "CHarguia 2",
+      "street": "Rue de entrepreneurs"
+    },
+    {
+      "id": 2,
+      "companyName": "One Tech Holding",
+      "email": "contact@oth.tn",
+      "website": "onetech-group.com",
+      "phoneNum": "71244125",
+      "faxNum": "71244125",
+      "state": "Tunis",
+      "city": "CHarguia 2",
+      "street": "Rue de entrepreneurs"
+    },
+    {
+      "id": 3,
+      "companyName": "Google",
+      "email": "contact@google.tn",
+      "website": "google.com/info",
+      "phoneNum": "71244141",
+      "faxNum": "71244141",
+      "state": "Tunis",
+      "city": "Lac 2",
+      "street": "Avenue de bourse"
+    }
+  ]
+}

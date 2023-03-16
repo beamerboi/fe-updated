@@ -1,0 +1,97 @@
+
+<app-navbar></app-navbar>
+  
+
+<div class="backgroundimg"> 
+ <title class="text"> Planning For The Future Is Easier With Trust Bank </title> 
+
+ <div class="text subtitle" > Means Of Payment Insurance That Protects Your Daily Life <br> 
+    With Trust Bank Bring all your projects to life 
+    <br>  
+ </div>
+ 
+ 
+ <img src="/src/assets/img/card.svg" alt="cards" style="position: absolute; width: 817.49px; height: 543.07px; left: -120px; top: 460px;
+  ">
+ 
+</div>
+
+
+<div class="back2">
+
+    <section-icon>
+            <section style="text-align: center;" >
+                       
+                <img src="/src/assets/img/Earn.svg" alt="cards" style="width: 89px;    height: 95px; ">
+                 <p class="text-style1" style=" font-weight: 600; 
+                 font-size: 20px; 
+                  ">  EN LIGNE CREDIT </p>
+            </section>
+
+            <section style="text-align: center;"> 
+                <img src="/src/assets/img/signature.svg" alt="cards" style="width: 89px;
+                height: 90px;" >
+                <p class="text-style1" style=" font-weight: 600; 
+                font-size: 20px; " >  ELECTRONIQUE SIGNATURE </p>
+            </section>
+
+            <section> 
+                <img src="/src/assets/img/assurance.svg" alt="cards" style="width: 89px; height: 90px;" >
+                <p class="text-style1" style=" font-weight: 600; font-size: 20px;  " > ASSURANCE </p>
+            </section>
+
+    </section-icon>
+
+
+    <p class="text text-style2" style="top: 300px ; left: 270px; font-weight: 200;
+    font-size: 45px;
+    line-height: 60px; ">
+        Benefit from a complete offer of performance products
+     </p>
+
+     <p class="text text-style1" style=" left: 300px; right: 300px; top: 410px;  "> 
+         with TRUST BANK Manage your bank accounts, save, finance your projects, insure yourself and save money.</p>
+    
+
+   
+    <mat-grid-list cols="2" rowHeight="2:1" getterSize="60px">
+        <mat-grid-tile> 
+            <mat-card-subtitle>  <p class="grid-title"> EASY CREDIT </p>Get a credit so easily, completely automatically and free of charge in accordance with the law: we take care of everything! instant credit
+                Make an express request and get an immediate definitive answer  
+            </mat-card-subtitle>
+        </mat-grid-tile> 
+
+         <mat-grid-tile> 
+            <mat-card-subtitle> <img src="/src/assets/img/img2.jpg" style="position: relative; width: 450px; height: 250px; border-radius:20px 0px 0px 20px;"> </mat-card-subtitle>
+         </mat-grid-tile>
+         
+         <mat-grid-tile><mat-card-subtitle> <img src="/src/assets/img/img1.jpg" style="position: relative; width: 450px; height: 250px; border-radius:0px 20px 20px 0px;"></mat-card-subtitle> </mat-grid-tile>
+         
+         <mat-grid-tile> <mat-card-subtitle><p class="grid-title"> A MORE GENEROUS CARD </p> With the My Ideal Account card, my payment limit is increased to €5,000 over 30 rolling days. I also have access to extended insurance, Travel insurance for me and my tribe
+            </mat-card-subtitle>
+        </mat-grid-tile>
+
+        
+    </mat-grid-list>
+       
+   
+       <div style="position:absolute ; top: 1300px">
+        <div *ngFor="let card of servicecards">
+            <app-servicecard [title]="card.title" [description]="card.description" [image]="card.image"></app-servicecard>
+          </div>       
+    
+      </div>
+    
+
+      <!-- map image section -->
+      <p class="text  text-style1" style="left: 600px; top: 2500px ">  CONTACT US </p>
+     <p class="text text-style2" style="top: 2500px ; left: 400px;">  We’d love to hear from you  </p>
+
+     <img src="/src/assets/img/map.svg" alt="map image" style="position: absolute; width: 100% ;left: 0px; top: 2700px; ">
+
+      <img src="/src/assets/img/flech.svg" alt="flech " style="position: absolute; width: 176.9px; height: 173.75px; left: 250px; top: 2600px;">
+      
+      <!-- end map image section -->
+<!-- end white back-->  
+</div>
+<app-footer></app-footer>

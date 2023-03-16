@@ -1,0 +1,77 @@
+
+mat-toolbar{
+    background: #2A3646;
+    height: 70px;
+    position: fixed;
+  top: 0;
+  
+  z-index: 9999;
+
+}
+.nav {
+ position: relative;
+ flex: 1 1 auto;
+background: #2A3646;
+width: 100%;
+height: 70px;
+}
+
+.logo {
+    position: absolute;
+    width: 191px;
+    height: 87px;
+    left: -19px;
+    top: 23px;
+    
+    font-family: 'roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.065em;
+    
+    color: #7BFAC0;
+    
+}
+
+.nav-elemets {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    
+    position: absolute;
+    width: 782px;
+    height: 61px;
+    left: 257px;
+    top: 23px;
+    
+
+}
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-elemets-style:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.nav-elemets-style {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: -0.065em;
+
+color: #E2FFF2;
+
+
+
+}
+

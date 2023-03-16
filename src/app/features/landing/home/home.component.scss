@@ -1,0 +1,154 @@
+.text{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    text-align: center;
+
+
+}
+
+.backgroundimg {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    right: 0px;
+    left: 0px;
+    top: 67px;
+    
+    background: url('/src/assets/img/Rectangle.svg');
+    
+    }
+
+
+
+.back2 {
+position: absolute;
+width: 100%;
+height: 4165px;
+left: 0px;
+right: 0px;
+top: 818px;
+background: #FFFFFF;
+border-radius: 29px;
+}
+
+
+
+title {
+    width: 730px;
+    height: 154px;
+    left: 300px;
+    top: 100px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    
+    letter-spacing: -0.065em;
+    color: #FFFFFF;
+}
+
+.subtitle{
+position: relative;
+ width: 1275px;
+ height: 46px;
+ left: 400px;
+ //right:100px ;
+ top: 300px;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 24px;
+ text-align: center;
+ letter-spacing: 0.04em;
+ 
+
+ color: #FFFFFF
+}
+
+.logo {
+    color: #2AF598 ;
+}
+
+
+section-icon {
+    
+    padding: 20px;
+    margin: 300px;
+    margin-top: 50px;
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+padding: 0px;
+gap: 140px;
+  }
+
+  .text-style1{
+    
+    
+     font-weight: 600;  
+     font-size: 20px;
+     line-height: 29px; 
+     color: #45AE9A;
+     text-align: center;
+  }
+
+mat-grid-list {
+    
+    width: 1000px;
+    height: 1300px;
+    left: 183px;
+    top: 50px;
+    padding: 50px ; grid-gap: 50px;
+   
+}
+
+.grid-title {
+    
+//position: relative;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.3px;
+
+color: #283F71;
+
+//background: lightblue;
+
+}
+
+mat-card-subtitle{
+    position: relative;
+    //width: 400px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+        
+    letter-spacing: 0.5px;
+     color: #090142;
+     text-align:start ;
+     align-items: flex-start;
+     //display: flex;
+    //align-items: flex-start;
+    
+    
+
+}
+.my-custom-style {  padding: 10px;}
+
+.text-style2 {
+font-weight: 400;
+font-size: 70px;
+line-height: 88px;
+letter-spacing: -0.065em;
+color: #283F71;
+
+text-align: center;
+
+}

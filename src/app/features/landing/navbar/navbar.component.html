@@ -1,0 +1,60 @@
+<mat-toolbar>
+  
+
+  <span class="logo"> Trust Bank </span> 
+  <span class="spacer"></span>
+  <div class="nav-elemets">
+  <a mat-button class="nav-elemets-style" routerLink="/">Home</a>
+  <a mat-button class="nav-elemets-style" routerLink="/">About Us</a>
+  <a mat-button class="nav-elemets-style" routerLink="/">Service</a>
+  <a mat-button class="nav-elemets-style" routerLink="/">Contact</a>
+</div>
+
+      <section>
+            <div *ngIf="securityService.profile; else loginTemplate" >
+              <button mat-button [matMenuTriggerFor]="menu" style="position: absolute; right: 150px ;top: 14px; ">
+                Hello {{securityService.profile.firstName}}
+              </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item (click)="onLogout()">Logout</button>
+
+            </mat-menu>
+
+            <button mat-button  style="background-color:#45AE9A ; position:absolute ; right: 11px; top: 14px; height: 40px;
+            " (click)="login()"> Verify account
+            </button>
+
+            </div>
+      </section>
+
+
+
+
+      <ng-template #loginTemplate>
+          <button mat-stroked-button style="position: absolute; right: 110px ;top: 14px;
+          border: 1px solid #45AE9A;" (click)="Signup()">Sign up   </button>
+
+            <button mat-button  style="background-color:#45AE9A ; position: absolute ; right: 6px; top: 14px; width: 90px;
+          " (click)="login()"> Log in </button>
+      </ng-template>
+
+</mat-toolbar>
+
+
+
+       
+     
+    <!-- <div class="nav-elemets">
+      <a class="nav-elemets-style" routerLink=""> Home  </a>
+      <a class="nav-elemets-style"> About Us  </a>
+      <a class="nav-elemets-style"> Services  </a>
+      <a class="nav-elemets-style"> Contact   </a>
+    </div>
+  -->
+    
+
+ 
+    
+
+
+    

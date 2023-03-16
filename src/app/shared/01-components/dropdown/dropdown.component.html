@@ -1,0 +1,11 @@
+<div class="relative ml-3">
+    <div>
+        <button type="button" class="dropdown__button focus:ring-teal-500" (click)="openDropdown()">
+            <p *ngIf="dropdownModel.name">{{dropdownModel.name}}</p>
+            <img [src]="dropdownModel.image" alt="">
+        </button>
+    </div>
+    <div *ngIf="isOpen" class="dropdown__items" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+        <a *ngFor="let item of dropdownModel.items" [href]="item.url" class="dropdown__items__item" >{{item.label}}</a>
+    </div>
+</div>
